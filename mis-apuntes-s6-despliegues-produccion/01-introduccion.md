@@ -25,3 +25,7 @@ Este es un breve listado de los temas fundamentales:
 - Aquí aprenderemos como generar el build de producción de nuestra aplicación y la desplegaremos en la web.
 
 - El proceso de despliegue en otros servidores es virtualmente el mismo, tomar nuestra carpeta DIST (que contiene la aplicación con archivos HTML, CSS y JS) y desplegarla mediante FTP (preferiblemente sFTP) en el hosting deseado.
+
+----------------------------
+
+###ng build -> para buildear nuestro proyecto      .
