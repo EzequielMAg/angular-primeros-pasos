@@ -1,5 +1,6 @@
 ## [ngClass]=""
 
+- Significa "estas clases aplicalas a tales elementos".
 - En el archivo "list.component.html" usamos esta directiva en combinacion con el ngFor para darle un color distinto a cada fila de personaje:
 
 ``[ngClass]="{

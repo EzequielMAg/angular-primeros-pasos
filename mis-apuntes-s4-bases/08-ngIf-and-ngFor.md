@@ -11,6 +11,6 @@ Brevemente, todos los numeros son considerados TRUE (valor thurty), y el cero es
 <br>
 <br>
 
-## *ngIf="" 
+## *ngFor="" 
 
 - Es basicamente un ciclo for, pero para el lado del template. Permite replicar elementos.

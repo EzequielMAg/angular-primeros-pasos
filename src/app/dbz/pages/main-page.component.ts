@@ -15,7 +15,10 @@ export class MainPageComponent {
   }
 
   get characters(): Character[] {
-    return [...this.dbzService.characters];
+    return [...this.dbzService.characters]; // Usualmente esta es la forma con la que se trabaja. Usando el Spread operator
+                                            // para crear otra instancia del arreglo.
+                                            // Aunque no es obligatorio, porque muchas veces la informacion que va a obtener el servicio
+                                            // va a ser info que viene de una BD, o de un servicio REST,
   }
 
   onDeleteCharacter(id: string): void {
