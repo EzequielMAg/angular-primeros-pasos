@@ -27,5 +27,10 @@ Este es un breve listado de los temas fundamentales:
 - El proceso de despliegue en otros servidores es virtualmente el mismo, tomar nuestra carpeta DIST (que contiene la aplicación con archivos HTML, CSS y JS) y desplegarla mediante FTP (preferiblemente sFTP) en el hosting deseado.
 
 ----------------------------
+- Que es el build de produccion? Es la aplicacion minimizada/optimizada y ejecutando el tree shaking. Se obtienen los archivos minimos necesarios para ejecutar la aplicacion, que subimos al hosting.
 
-###ng build -> para buildear nuestro proyecto      .
+
+###ng build -> para buildear nuestro proyecto (ejecutado por angular CLI) 
+- O tambien podemos usar el comando: **npm run build** que tambien es ejecutado por Angular CLI, pero a traves del script definido en el archivo package.json
+- Sabemos que GitHub es un servicio en la nube que nos permite darle seguimiento a nuestros proyectos de Git.
+- GitHub Pages es un servicio extra que ofrece GitHub en el cual podemos subir contenido estatico: como los archivos de nuestra carpeta "dist". Con estatico, nos referimos a que el servidor no va a generar nuevos archivos y por eso el contenido dentro de la carpeta "dist" es estatico.
