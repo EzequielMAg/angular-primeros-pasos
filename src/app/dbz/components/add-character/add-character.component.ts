@@ -11,6 +11,8 @@ export class AddCharacterComponent {
   @Output()
   public onNewCharacter: EventEmitter<Character> = new EventEmitter();
 
+
+  //* Se crea este objeto para guardar aqui los datos que se van a ingresar por el formulario
   public character: Character = {
     name: "",
     power: 0

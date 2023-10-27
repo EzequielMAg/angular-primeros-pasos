@@ -25,6 +25,7 @@ export class MainPageComponent {
     this.dbzService.onDeleteCharacterById( id );
   }
 
+  //* Metodo que va a recibir el personaje emitido por el componente hijo
   onNewCharacter(character: Character): void {
     this.dbzService.addCharacter( character );
   }

@@ -53,6 +53,11 @@
 - **./assets**
     Estos son recursos estaticos que queremos subir, al principio la carpeta esta "vacia", ya creada por default para nosotros. Aqui dentro hay un archivo llamado ".gitkeep" en el cual le decimos a git que esta carpeta es importante para nosotros, aunque este vacia, ya que si Git detecta que no hay nada, Git la ignora. De esta forma, Git va a guardar en el backup, la carpeta vacia.
 
+    Esto dice ChaGPT: Estos archivos pueden ser imágenes, hojas de estilo CSS, archivos JavaScript, archivos JSON, fuentes tipográficas, videos u otros recursos estáticos que la aplicación necesita para funcionar correctamente.
+
+    Los assets se almacenan en la carpeta "src/assets" del proyecto Angular por defecto, pero se pueden configurar en cualquier directorio deseado. Cuando se ejecuta el comando de construcción ng build, Angular copia estos archivos estáticos en el directorio de salida de distribución para que estén disponibles públicamente cuando la aplicación se ejecute en un servidor.
+
+
 PD: me paso que subi tres carpetas a github, con titulos de cursos, estaba trabajando en dos de ellas, porque estaba registrando todo el codigo de los cursos, practicando, tomando apuntes etc, pero en uno de los 3 cursos aun no habia empezado, por lo que me quedo la carpeta estaba vacia aun, y al ver el repo en GitHub, me sorprendo de solo ver que tenia 2 carpetas subidas. Me quede como.. -EH? Si yo tenia 3 carpetas... 
 Y ahora entendi! Es justamente porque Git ignora las carpetas vacias.. OK. Gracias Fernando Herrera! 
 

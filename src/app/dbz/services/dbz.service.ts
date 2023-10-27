@@ -42,7 +42,8 @@ export class DbzService {
     power: 5000
   }];
 
-  //* Metodo que va a recibir el personaje emitido por el componente hijo
+  //* Metodo que va a agregar el nuevo personaje emitido por el componente add-character, que se lo paso al
+  //* componente padre main-page y este lo mando para aca, ya que tiene el servicio inyectado.
   addCharacter(character: Character): void {
 
     const newCharacter: Character = { id: uuid(), ...character }; //* Spread operator. Se exparsen los atributos del obj original.

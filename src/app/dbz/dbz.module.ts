@@ -19,7 +19,7 @@ import { AddCharacterComponent } from './components/add-character/add-character.
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,  //* Para poder usar ngModel
   ]
 })
 export class DbzModule { }
